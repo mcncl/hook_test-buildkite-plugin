@@ -4,5 +4,5 @@ set -eou pipefail
 
 echo "🗑️ Deleting the ENV..."
 
-docker run hello-world env
+docker run bash env
 
