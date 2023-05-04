@@ -6,4 +6,4 @@ echo "🗑️ Deleting the ENV..."
 
 docker run hello-world
 
-env
+env | grep AWS
