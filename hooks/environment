@@ -4,5 +4,5 @@ set -eou pipefail
 
 echo "🗑️ Deleting the ENV..."
 
-docker run bash env
+docker run -e AWS_ACCESS_KEY_ID bash env
 
